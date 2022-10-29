@@ -1,0 +1,78 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0px;
+}
+
+h1,
+p {
+	margin: 0px;
+}
+
+.navbar {
+	background-color: #35424a;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-bottom: 3px solid orangered;
+}
+
+.navbar .logo .orange {
+	color: orangered;
+}
+
+.link {
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+
+.link:hover {
+	color: orangered;
+	cursor: pointer;
+}
+
+.sliders {
+	background-image: url(https://img.freepik.com/premium-photo/hi-tech-digital-display-holographic-information-abstract-background_24070-563.jpg?w=2000);
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.sliders h1 {
+	font-size: 40px;
+}
+
+.newsletter {
+	display: flex;
+	align-items: center;
+	background-color: #35424a;
+	color: white;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.services {
+	display: flex;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	gap: 40px;
+}
+
+.services img {
+	height: 150px;
+}
+
+.footer {
+	background-color: orangered;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	text-align: center;
+}
